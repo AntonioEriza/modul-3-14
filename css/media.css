@@ -1,0 +1,151 @@
+@media screen and (max-width: 1250px) {
+	.tbl {
+		width: 100%;
+		height: 20%;
+	}
+	.sec-3-wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sec-5-wrap-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 75px 0 0 0;
+	}
+	.sec-5-right p{
+		margin: 0;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 1100px) {
+	header {
+		padding: 15px 0 50px 0;
+	}	
+	.sec-right img {
+		height: 324px;
+		width: 498.6px;
+	}	
+}
+@media screen and (max-width: 1040px) {
+	.sec-right img {
+		height: 288px;
+		width: 443.2px;
+	}	
+}
+@media screen and (max-width: 990px) {
+	.sec-right img {
+		height: 252px;
+		width: 387.8px;
+	}	
+	.prd-wrap {
+		justify-content: center;
+	}
+	.prd {
+		margin: 10px 5px;
+	}
+}
+@media screen and (max-width: 930px) {
+	header section {
+		flex-direction: column;
+	}
+
+	.sec-header {
+		height:420px;
+		margin: 20px 0 20px 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+	}	
+	.sec-left {
+		text-align: center;
+	}
+
+	.sec-1 {
+		flex-direction: column;
+	}
+	.sec-1-left {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.sec-1-left p {
+		margin: 20px 0;    
+	}
+	.sec-1-right {
+		width: 100%;
+	}
+	
+	.tbl {
+		margin-top: 5px;
+	}
+	.tbl img {
+		display: inline-block;
+		margin-right: 15px;
+		float: left;
+	}
+
+	.tbl h3 {
+		margin: 10px;
+	}
+
+	.tbl p {
+
+		margin: 15px;
+	}
+
+	.mnu {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 24px;
+		letter-spacing: 0.22px;   
+		margin: 50px 0 30px 0;
+		padding: 0 10px;	
+	}
+
+}
+@media screen and (max-width: 520px) {
+	header {
+		padding: 5px 0 10px 0;
+	}
+	nav {
+		flex-direction: column;
+		height: 178px;
+	}
+	nav a {
+		padding: 0 50%;
+		display: flex;
+		justify-content: center;
+	}
+	.sec-header {
+		margin: 7px 0 10px 0;
+	}
+	.sec-left h1 {
+		font-size: 30px;
+		line-height: 32px;
+		letter-spacing: 1.5px;
+	}	
+	.sec-left p {
+		font-size: 14px;
+		line-height: 20px; 
+	}	
+	.sec-left a {
+		font-size: 14px;
+		height: 48px;
+		width: 200px;	
+	}		
+
+	.prd-wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+}
